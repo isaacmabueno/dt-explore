@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto";
+}
+.suggested-list {
+    color: #fff;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo-container {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.logo-container img {
+    width: 150px;
+}
+
+ul {
+    padding-left: 0;
+}
+.nopad {
+    padding: 0 !important;
+}
+li {
+    border-bottom: 1px solid #fff;
+}

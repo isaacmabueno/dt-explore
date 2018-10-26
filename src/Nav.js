@@ -9,14 +9,18 @@ const sidebarArray = ([
     'Target Caller-Ready Audiences',
     'Request A Demo'
 ]);
-const listItem = sidebarArray.map((i) =>
-    <li>{i}</li>
+const listItem = sidebarArray.map((item) =>
+    <li className="suggested-list">{item}</li>
 );
 
+const logo = <img src ="https://277y2d10y5kk16f38t1xjp9f-wpengine.netdna-ssl.com/wp-content/themes/ifbyphone/theme/images/logos/logo-dt-main.svg"></img>
 class Nav extends Component {
     render() {
         return (
-            <nav>
+            <nav class="col-md-2 nopad">
+            <div className="logo-container">
+                {logo}
+            </div>
                 <ul>
                 {listItem}
                 </ul>
