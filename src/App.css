@@ -28,3 +28,21 @@ ul {
 li {
     border-bottom: 1px solid #fff;
 }
+li a {
+    color: #fff;
+}
+li a:hover {
+    color: #fff;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 100%;
+    flex: 0 1 auto;
+    border-bottom: 1px solid #fff;
+}
