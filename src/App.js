@@ -10,10 +10,8 @@ import { Button } from 'react-bootstrap';
          <section>
             <div className="container-fluid">
                 <div className="row App">   
-                    
                     <Nav />
                     <Content />
-                    
                 </div>
             </div>
         </section>
