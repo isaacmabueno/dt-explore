@@ -25,9 +25,6 @@ ul {
 .nopad {
     padding: 0 !important;
 }
-li {
-    border-bottom: 1px solid #fff;
-}
 li a {
     color: #fff;
 }
@@ -37,12 +34,32 @@ li a:hover {
 .list {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid rgba(255,255,255,0.15);
 }
 .list-content {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 1rem 1rem 1rem 2.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    line-height: 16px;
+    color: #fff;
+    font-size: 13px;
     width: 100%;
     flex: 0 1 auto;
-    border-bottom: 1px solid #fff;
+}
+
+.suggested-list img {
+    position: absolute;
+    content: '';
+    left: 8px;
+    left: .8rem;
+    height: 13px;
+    height: 1.3rem;
+    width: 13px;
+    width: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
